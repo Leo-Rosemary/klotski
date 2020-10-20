@@ -50,4 +50,4 @@
 
 [AI大比拼.py](https://github.com/Leo-Rosemary/klotski/blob/main/AI大比拼.py)即为**AI大比拼的算法代码**，[最终版本.py](https://github.com/Leo-Rosemary/klotski/blob/main/最终版本.py)为**编程作业所要求的算法代码**
 
-**游戏原型设计的工程文件** 与 **游戏原型设计实现的代码**  [请点击队友链接🔗](https://github.com/baiweidou/klotski)
+**游戏原型设计的工程文件** ，**游戏原型设计实现的代码**  以及 **Release**  [请点击队友链接🔗](https://github.com/baiweidou/klotski)
