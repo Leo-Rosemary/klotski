@@ -9,7 +9,7 @@
 
 ###  操作系统
 
-  Windows64
+  Windows
 
   Python版本:3.7以上
 
@@ -36,8 +36,8 @@
 - 采用了requests库获取和提交题目
 - get_undo()函数会从 http://47.102.118.1:8089/api/team/problem/49 上获取所有未做的题目或者未运行成功的题目，将每题的uuid逐行写入**get_list.txt**文件中
 - get_start()函数将每个uuid提交给 http://47.102.118.1:8089/api/challenge/start/+uuid  获取题目的具体信息，返回提交所需要的uuid，返回要交换图片的步数及交换编号，同时获取base64编码的图片并且解码保存，返回给AI部分进行求解
-- 通过AI算法求解出操作序列（**operations**）和交换图片（**swap**），保存在answer集合中，与提交所需的**uuid**以及小组固定的**teamid**，**token**封装为**data**列表，使用sub mit函数提交
-- submit()函数将需要提交的信息data，用requests的post方法提交给 http://47.102.118.1:8089/api/challenge/submit 
+- 通过AI算法求解出操作序列（**operations**）和交换图片（**swap**），保存在answer集合中，与提交所需的**uuid**以及小组固定的**teamid**，**token**封装为**data**列表，使用submit()函数提交
+- submit()函数将需要提交的信息data，用requests的post方法提交 http://47.102.118.1:8089/api/challenge/submit 
 
 ### 使用方法
 
